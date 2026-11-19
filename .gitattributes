@@ -1,0 +1,2 @@
+# Keep the copied source byte-identical across checkouts.
+* -text

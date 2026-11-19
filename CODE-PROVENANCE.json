@@ -1,0 +1,39 @@
+{
+  "upstream_repository": "https://github.com/polycog/demo-phi",
+  "upstream_commit": "0d0fe86c9c10dc1a0123db282870c666f77e2ff3",
+  "publication_scope": "Source code, dependency lock, attribution, and neutral documentation. No evaluation inputs, labels, model outputs, reports, or findings.",
+  "unchanged_files": {
+    "LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "pyproject.toml": "8c85aa27739789e403798b8ee4bdd68932e8468d819c5b56d677179369c3eac1",
+    "uv.lock": "97b03c68c2ebd89f1fd0b103becf4b035370ff31ca62dc11eafac6728cbe0f40",
+    "evaluate_gemma.py": "800c0cb3ab901c1dc9eee5cbd3de248f479b63d81fbf5498cedee22d2aae82e6",
+    "run_budget_gemma.py": "a39d0d2ecba61246ea8960bd67e5c5fad38e272962791b285447114773e2d4de",
+    "run_real_comparison.py": "3fa513624e3917ca49dd4256c239b33bdc84cbf5cedfa2c887f07fd10596fe80",
+    "resume_real_comparison.py": "11bf6988612e52dc21b719b699c2b1ac92a4bf2ee3fe84da29ec0b0c0483d57e",
+    "recover_real_multipass.py": "a8ff2a98b6fd39424ac6db2a9068251e632f24164de74c288ebfa1e15b16fc31",
+    "build_practical_audit.py": "7fb79d39f59ea4c72338dc21e4ba479340bfd1f9985951f00cf4298bd3cd3c34",
+    "pii_demo/baseline.py": "fd571cc8e70ce01c2bfb722b8b60d391c17d0e42b487c39865bda8315c02ea6b",
+    "pii_demo/domain.py": "7e29400ecbfdcdd6f70bffe3121ff9fcd1c54d11855d7d910efc48de55f60c96",
+    "pii_demo/extract.py": "1689630055e3f54b0e99f7345a9481f6075ba92644529b67d7327c184723ea09",
+    "pii_demo/llm.py": "2fc2202b87c4b5f6e2ff86f66369420561bf4e73c04582e53787f520ca44c4fd",
+    "pii_demo/pipeline.py": "5ca5b6d710f1ce9e3c2c2e05b1973893a6d9b3d685348641bdb284c1c9d4cbd1",
+    "pii_demo/reference.py": "fc9a15f2ea29bbc68fa63f24586d4532d3706000fb8452a5201efc5d3dd70f33",
+    "pii_demo/report.py": "24aa7397b6f1b1c9faf5734e924d5791fce88dd62860ad9dfd6291f6cb86764a",
+    "pii_demo/score.py": "4d09442b6623c193f853d7028e175418c069893a6b117a67030300a5b8377b3c",
+    "pii_demo/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pii_demo/__main__.py": "82714c13344987058e3e46830ba21c98181be44425b00ed9859ebce7fe051555",
+    "pii_demo/assess/investigate.py": "c03904ecdbc6ed769b365fa1268f03828048e249de5f83fcc1e345804732958a",
+    "pii_demo/assess/rules.py": "0d62e6d3faf38c800c06284744cabfcd66887302f147b98b49cdd93813332be3",
+    "pii_demo/assess/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "adapted_files": {
+    "audit_results.py": {
+      "retained_functions": [
+        "applied",
+        "coverage_audit"
+      ],
+      "sha256": "b9c13a9fff2713e2fe7e7e354d9efe5492d2e106003538aee02f378b1ca7b815",
+      "change": "Only the required coverage functions and imports are included; no standalone diagnostic examples or rule probes."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# Local tools and credentials
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+node_modules/
+
+# Inputs, annotations, generated results, and analysis stay local.
+corpus/
+real_documents/
+evaluation/
+budget_comparison/
+out/
+output/
+tmp/
+*.log
+*.jsonl
+*.pdf
+*.html
+*.zip
+annotations.json
+gold.json
+noise_judgments*.json
+practical_targets.json
+protocol.json
+results.json
+report*.md
+summary*.md
